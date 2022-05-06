@@ -1,1 +1,171 @@
 Installed Ubuntu 18.04 using Nvidia Jetson Nano Get Started.
+
+
+
+General Kickstart
+https://elinux.org/Jetson_Zoo
+https://jkjung-avt.github.io/jetpack-4.4/
+
+Install Pip
+sudo apt install python3-pip
+Jetson Zoo - eLinux.org
+To check version
+Modulename —-version
+
+To Create Swap File:
+https://linuxize.com/post/how-to-add-swap-space-on-ubuntu-20-04/
+
+Tensorflow 
+ sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v46 'tensorflow'
+
+
+https://towardsdatascience.com/yolov5-object-detection-on-nvidia-jetson-nano-148cfa21a024
+
+
+02-03-2022 0924
+Flask 
+Skbuilt
+
+Install FLask
+Pandas should be installed for downloading flask
+pip install pandas
+Pandas installed
+pip install flask
+Flask installed
+Raspberry camera not worked;executed with webcam
+
+—--
+!make error
+Nvcc not found
+Location error
+Finding nvcc - in need of cuda toolkit
+
+
+Install HDf5 for h5py to run numpy
+
+Create Virtual Environment on Ubuntu
+
+https://linuxize.com/post/how-to-create-python-virtual-environments-on-ubuntu-18-04/
+>>>Cuda Check in Ubuntu
+
+https://varhowto.com/check-cuda-version-ubuntu-18-04/#:~:text=The%20first%20way%20to%20check,or%20from%20the%20NVIDIA%20website.&text=You%20will%20see%20similar%20output%20to%20the%20screenshot%20below.
+
+
+>>>>Install IPYTHON 
+
+pip install ipython
+
+>>> Install Google Colab
+
+https://stackoverflow.com/questions/36183486/importerror-no-module-named-google
+https://stackoverflow.com/questions/52620788/how-to-resolve-modulenotfounderror-no-module-named-google-colab
+
+pip install google-colab
+
+ >>> ModuleNotFoundError: No module named 'packaging'
+
+sudo apt install python3-packaging
+
+Opencv 
+sudo apt-get install python3-opencv
+
+The above code is not worked use this
+
+https://linuxize.com/post/how-to-install-opencv-on-ubuntu-20-04/
+
+
+
+https://docs.nvidia.com/jetson/archives/l4t-archived/l4t-3242/index.html#page/Tegra%2520Linux%2520Driver%2520Package%2520Development%2520Guide%2Fquick_start.html%23wwpID0E0LB0HA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2GB DAY-1 14-03-2022 13:51
+
+STEP 1:
+INSTALLING DEPENDENCIES FROM
+https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html
+
+STATEMENT 1 :
+sudo pip3 install -U --no-deps numpy==1.19.4 future==0.18.2 mock==3.0.5 keras_preprocessing==1.1.2 keras_applications==1.0.8 gast==0.4.0 protobuf pybind11 cython pkgconfig`
+ERROR 1 :
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: 
+
+
+
+TRYING TO VIRTUAL ENVIRONMENTS FROM THE ABOVE LINK
+STEP 1.1:
+STATEMENT 1.1:
+python3 -m venv tutorial-env
+ERROR 1.1 :
+The virtual environment was not created successfully because ensurepip is not available.  On Debian/Ubuntu systems, you need to install the python3-venv package using the following command.
+
+apt-get install python3-venv
+
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
+
+Failing command: ['/home/ailab/tutorial-env/bin/python3', '-Im', 'ensurepip', '--upgrade', '--default-pip']
+
+TRYING TO USE THE ABOVE COMMAND TO INSTALL
+STEP 1.1.1:
+HERE WITH THIS COMMAND STEP 1.1 IS RUNNING. NOW CONTINUING WITH STEP 1.1:
+RUNNING ALL COMMANDS WITH STEP 1 ERROR LINK EXPECT 
+STATEMENT 1.2:
+$ source ~/envs/tutorial-env/bin/activate
+
+ERROR 1.2 :
+bash: /root/envs/tutorial-env/bin/activate: No such file or directory
+
+CONTINUING WITH LINK IN STEP 1.1 (12.3 MANAGING PACKAGES WITH PIP)
+
+STATEMENT:
+python -m pip install novas
+
+ERROR:
+Failed building wheel for novas
+
+SOLUTION :
+WHEEL IS USED BY PIP INSTALLER TO INCREASE THE SPEED OF THE INSTALLATION BUT STILL IF WE SEE THE INSTALLED WORD AT LAST THAT MEANS IT IS SUCCESSFULLY INSTALLED.
+
+CONTINUING WITH LINK IN STEP 1.1 (12.3 MANAGING PACKAGES WITH PIP)
+
+SUCCESSFULLY EXECUTED ALL THE CODES IN THE STEP 1.1 WITH LINK https://docs.python.org/3/tutorial/venv.html
+
+CONTINUING WITH STEP 1 ERROR 1:
+
+STATEMENT 1 :
+sudo pip3 install -U --no-deps numpy==1.19.4 future==0.18.2 mock==3.0.5 keras_preprocessing==1.1.2 keras_applications==1.0.8 gast==0.4.0 protobuf pybind11 cython pkgconfig
+ERROR 1 :
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+
+STILL ERROR REMAINS THE SAME
+
+TRYING SOLUTION FOR ERROR 1:
+https://similargeeks.com/errors/warning-running-pip-as-the-root-user-can-result-in-broken-permissions-and-conflicting-behaviour/
+
+
+4GB DAY-1 18-03-2022 10:18
+
+
+sudo apt-get install -y wget apt-transport-https
