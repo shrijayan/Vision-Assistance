@@ -1,5 +1,13 @@
 Installed Ubuntu 18.04 using Nvidia Jetson Nano Get Started.
 
+How to install OS in Jetson Nano ?
+https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit
+
+Need to Install CUDA
+https://www.youtube.com/watch?v=4LuHiMvBMGY
+
+How to create Virtual Environment ?
+https://automaticaddison.com/how-to-write-a-python-program-for-nvidia-jetson-nano/
 
 
 General Kickstart
@@ -76,27 +84,6 @@ https://linuxize.com/post/how-to-install-opencv-on-ubuntu-20-04/
 
 
 https://docs.nvidia.com/jetson/archives/l4t-archived/l4t-3242/index.html#page/Tegra%2520Linux%2520Driver%2520Package%2520Development%2520Guide%2Fquick_start.html%23wwpID0E0LB0HA
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
