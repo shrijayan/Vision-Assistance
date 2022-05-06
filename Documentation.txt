@@ -9,6 +9,9 @@ https://www.youtube.com/watch?v=4LuHiMvBMGY
 How to create Virtual Environment ?
 https://automaticaddison.com/how-to-write-a-python-program-for-nvidia-jetson-nano/
 
+How to install PIP ?
+sudo apt-get install -y python3-pip
+
 
 General Kickstart
 https://elinux.org/Jetson_Zoo
