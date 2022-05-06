@@ -3,7 +3,7 @@ Installed Ubuntu 18.04 using Nvidia Jetson Nano Get Started.
 How to install OS in Jetson Nano ?
 https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit
 
-Need to Install CUDA
+How to Install CUDA ?
 https://www.youtube.com/watch?v=4LuHiMvBMGY
 
 How to create Virtual Environment ?
@@ -11,6 +11,9 @@ https://automaticaddison.com/how-to-write-a-python-program-for-nvidia-jetson-nan
 
 How to install PIP ?
 sudo apt-get install -y python3-pip
+
+Useful Linux Commands
+https://jetsonhacks.com/helpful-command-lines/
 
 
 General Kickstart
