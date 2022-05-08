@@ -19,6 +19,10 @@ sudo apt-get install -y python3-pip
 Useful Linux Commands
 https://jetsonhacks.com/helpful-command-lines/
 
+08-05-2022 00:45
+SSH related problems and solution
+https://www.tecmint.com/how-to-install-and-configure-ufw-firewall/
+
 08-05-2022 14:02
 CUDA Checking 
 
