@@ -21,6 +21,21 @@ CUDA Checking
 Fix Broken packages
 apt --fix-broken install
 
+Install CUDA "dependencies"
+There are a few dependencies that are good to install first since they don't always get pulled along with a CUDA install from the "deb" file.
+You will certainly need the build-tools and dkms,
+sudo apt-get install build-essential dkms
+
+sudo apt-get install freeglut3 freeglut3-dev libxi-dev libxmu-dev
+CUDA INSTALL FOR ARM aRCHITECTURE
+
+https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=arm64-sbsa&Compilation=Native&Distribution=Ubuntu&target_version=18.04&target_type=deb_local
+
+https://sh-tsang.medium.com/tutorial-cuda-v10-2-cudnn-v7-6-5-installation-ubuntu-18-04-3d24c157473f
+
+jetson inference
+
+https://elinux.org/Jetson_Zoo
 
 General Kickstart
 https://elinux.org/Jetson_Zoo
