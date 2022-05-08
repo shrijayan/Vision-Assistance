@@ -15,6 +15,12 @@ sudo apt-get install -y python3-pip
 Useful Linux Commands
 https://jetsonhacks.com/helpful-command-lines/
 
+08-05-2022 14:02
+CUDA Checking 
+
+Fix Broken packages
+apt --fix-broken install
+
 
 General Kickstart
 https://elinux.org/Jetson_Zoo
