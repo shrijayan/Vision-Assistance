@@ -1,3 +1,7 @@
+
+ cd /jetson-inference/build/aarch64/bin
+
+
 Installed Ubuntu 18.04 using Nvidia Jetson Nano Get Started.
 
 How to install OS in Jetson Nano ?
