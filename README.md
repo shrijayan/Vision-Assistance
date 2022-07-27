@@ -5,6 +5,11 @@ This device is fitted with the camera to capture the images for object detection
 Object detection using Jetson Nano and deep learning, then experiment with realtime detection on a live camera stream.
  
 
+
+https://user-images.githubusercontent.com/81805145/181167062-60e2965d-c65b-4669-803b-ce6543749826.mp4
+
+
+
 ![image](https://user-images.githubusercontent.com/79906829/168484069-76691927-d345-41a1-871d-6cbf12fe6208.png)
 
 
