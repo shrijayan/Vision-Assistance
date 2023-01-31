@@ -1,4 +1,3 @@
-hi iiiiii
 
 # Vision-Assistance
 Vision places a major role among the senses and our ultimate aim to be achieved is to develop a  device to aid the visually impaired people to navigate the outer world using various techniques  used in artificial intelligence Object Detection Inference.
