@@ -1,3 +1,27 @@
+# Vision Assistant
+A project aimed at helping blind people by detecting objects and informing them through voice. The project uses YOLO v5 model which is trained on the powerful edge computing device Jetson AGX Orion.
+
+## Overview
+The vision assistant is a device that can capture a photo and inform blind people about the objects present in front of them and the distance between them. It is a string-like structure that has a button to capture the photo. The device uses the Jetson AGX Orion, which is one of the most powerful edge computing devices with a speed of 475 TOPS (trillion operations per second). The project was initially implemented on Jetson Nano and later developed to Jetson AGX Orion, which has a Ubuntu 20.04 operating system.
+
+## Key Features
+Detects objects in the photo and informs the user about them through voice
+The device is easy to use and has a button to capture the photo
+Uses the powerful Jetson AGX Orion, which ensures fast and accurate object detection
+
+## Technical Details
+The YOLO v5 model is trained on the Jetson AGX Orion
+The device has a string-like structure and a button to capture the photo
+The operating system used is Ubuntu 20.04
+
+## Future Developments
+The team is continuously working on improving the device and adding new features to enhance the user experience. Future developments include adding more object detection categories, improving the accuracy of distance detection, and making the device more compact.
+
+## Contributions
+The project was developed with a lot of effort and contributions from the team. If you would like to contribute to the project, please get in touch with the team.
+
+## Conclusion
+The Vision Assistant is a project aimed at helping blind people by detecting objects and informing them through voice. The use of Jetson AGX Orion ensures fast and accurate object detection and the device's easy-to-use design makes it accessible for blind people. The team is continuously working on improving the device and adding new features to enhance the user experience.
 
 # Vision-Assistance
 Vision places a major role among the senses and our ultimate aim to be achieved is to develop a  device to aid the visually impaired people to navigate the outer world using various techniques  used in artificial intelligence Object Detection Inference.
